@@ -363,8 +363,8 @@ p {
     display:block;
 }
 
-.our-work-list {
-    position: relative;
+.thumb-our-work {
+    position:relative;
 }
 
 .work-list-descr {
@@ -417,6 +417,7 @@ p {
     height: 44px;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
 
 
@@ -434,7 +435,7 @@ p {
 }
 
 .social-link-item:hover {
-    border-radius:50%;
+    
     background-color: var(--btn-hover-focus-bgd);
 }
 
@@ -536,7 +537,7 @@ p {
 
 
 .customers-link {
-    transition-property: border-radius; 
+    transition-property: border-color; 
     transition-duration: 250ms;
     transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -638,6 +639,9 @@ p {
 }
 
 .footer-link-contact {
+    transition-property:color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1); 
 
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
@@ -685,6 +689,7 @@ p {
         border-radius: 4px;
     color: var(--main-title-cl);
     letter-spacing: 0.03em;
+    cursor: pointer;
 
 }
 
